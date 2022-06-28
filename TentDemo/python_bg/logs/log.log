@@ -1,0 +1,20 @@
+[2022-06-21 19:47:25] [INFO] [flash_del.py]/[line: 11]/[login] 请求参数为：ImmutableMultiDict([]) 
+[2022-06-21 19:49:04] [INFO] [flash_del.py]/[line: 11]/[login] 请求参数为：ImmutableMultiDict([('a', '1')]) 
+[2022-06-21 20:00:38] [INFO] [flash_del.py]/[line: 16]/[post_regist] {'username': 'uwe', 'passwors': '123'} 
+[2022-06-21 20:08:31] [INFO] [flash_del.py]/[line: 26]/[post_regist1] ImmutableMultiDict([]) 
+[2022-06-21 20:10:36] [INFO] [flash_del.py]/[line: 26]/[post_regist1] ImmutableMultiDict([]) 
+[2022-06-21 20:10:49] [INFO] [flash_del.py]/[line: 26]/[post_regist1] ImmutableMultiDict([]) 
+[2022-06-21 20:12:57] [INFO] [flash_del.py]/[line: 26]/[post_regist1] ImmutableMultiDict([]) 
+[2022-06-21 20:15:01] [INFO] [flash_del.py]/[line: 26]/[post_regist1] ImmutableMultiDict([('username', 'ssss'), ('password', 'sss'), ('email', 'sssss')]) 
+[2022-06-21 20:15:49] [INFO] [flash_del.py]/[line: 26]/[post_regist1] ImmutableMultiDict([('username', 'zhangsan '), ('password', 'sss'), ('email', 'sssss')]) 
+[2022-06-21 20:16:43] [INFO] [flash_del.py]/[line: 26]/[post_regist1] ImmutableMultiDict([('usernam', 'zhangsan '), ('password', 'sss2144'), ('email', 'ssssswreerer')]) 
+[2022-06-21 20:26:30] [INFO] [flash_del.py]/[line: 32]/[post_file] None 
+[2022-06-21 20:27:06] [INFO] [flash_del.py]/[line: 32]/[post_file] <FileStorage: '测试学习时间表.xls' ('application/vnd.ms-excel')> 
+[2022-06-21 20:36:00] [INFO] [flash_del.py]/[line: 32]/[post_file] <FileStorage: '冒烟测试用例.xls' (None)> 
+[2022-06-23 18:21:01] [INFO] [swagerDemo02.py]/[line: 26]/[get] requesr.args====>ImmutableMultiDict([('id', '1'), ('case_title', '111')]) 
+[2022-06-23 19:03:32] [INFO] [swagerDemo02.py]/[line: 40]/[post] requesr.args====>ImmutableMultiDict([]) 
+[2022-06-23 19:03:32] [INFO] [swagerDemo02.py]/[line: 41]/[post] requesr.args====>ImmutableMultiDict([('file', <FileStorage: 'InsertSort-01.png' ('image/png')>)]) 
+[2022-06-23 19:03:32] [INFO] [swagerDemo02.py]/[line: 42]/[post] requesr.args====>ImmutableMultiDict([('param1', '分威风'), ('param2', '123243')]) 
+[2022-06-23 19:05:37] [INFO] [swagerDemo02.py]/[line: 40]/[post] requesr.args====>ImmutableMultiDict([('choice', 'one')]) 
+[2022-06-23 19:05:37] [INFO] [swagerDemo02.py]/[line: 41]/[post] requesr.args====>ImmutableMultiDict([]) 
+[2022-06-23 19:05:37] [INFO] [swagerDemo02.py]/[line: 42]/[post] requesr.args====>ImmutableMultiDict([('param1', '肥沃富饶'), ('param2', '123423')]) 

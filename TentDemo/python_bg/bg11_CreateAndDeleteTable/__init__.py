@@ -1,0 +1,17 @@
+'''
+创建表
+    db.create_all()
+删除表
+    db.drop_all()
+'''
+'''
+配置数据库表
+app.config['SQLALCHEMY_DATABASE_URI']=f'mysql+pymysql://{username}:{pwd}@{ip}:{port}/{database}?charset=utf8'
+'''
+'''
+Flask-SQLALCHEMY的类
+类名相当于表名
+驼峰命名的类名，转为下划线链接
+    例如classUserInfo建立的表名为user_info
+自定义表名，__tablename__=自定义的表名
+'''
